@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center">
+        <span class="fab fa-facebook"></span> Friend Finder</h1>
+      <hr>
+      <h2 class="text-center">Take the Survey</h2>
+      <br>
+      <div class="text-center">
+        <a href="/api/friends">
+          <button class="btn btn-lg btn-primary">
+            <span class="fa fa-user-friends"></span> View All Friends</button>
+        </a>
+        <a href="/">
+          <button class="btn btn-lg btn-default">
+            <span class="fa fa-home"></span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- Reservation Page -->
+        <div class="card">
+          <div class="card-header">
+            Friend Survey
+          </div>
+          <div class="card-body">
+            <form role="form">
+              <div class="form-group">
+                <h3><strong>About You</strong></h3>
+                <label for="full-name">Name (Required)</label>
+                <input type="text" class="form-control" id="full-name">
+              </div>
+              <div class="form-group">
+                <label for="profile-photo">Link a Photo (Required)</label>
+                <input type="text" class="form-control" id="profile-photo">
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 1</strong></h3>
+                <label for="question1">Your mind is always buzzing with unexplored ideas and plans</label>
+                    <select class="form-control" id="question1">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 2</strong></h3>
+                <label for="question2">Generally speaking, you rely more on your experience than your imagination</label>
+                    <select class="form-control" id="question2">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 3</strong></h3>
+                <label for="question3">You would like to go to Comicon</label>
+                    <select class="form-control" id="question3">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 4</strong></h3>
+                <label for="question4">You think Star Wars is better than Star Trek</label>
+                    <select class="form-control" id="question4">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 5</strong></h3>
+                <label for="question5">You love Burritos</label>
+                    <select class="form-control" id="question5">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 6</strong></h3>
+                <label for="question6">You think football is life</label>
+                    <select class="form-control" id="question6">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 7</strong></h3>
+                <label for="question7">You love Burritos</label>
+                    <select class="form-control" id="question7">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 8</strong></h3>
+                <label for="question8">You are big fan of scary movies</label>
+                    <select class="form-control" id="question8">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 9</strong></h3>
+                <label for="question9">Your idea of fun is going hiking</label>
+                    <select class="form-control" id="question9">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <div class="form-group">
+                <h3><strong>Question 10</strong></h3>
+                <label for="question10">Adam Sandler is funny</label>
+                    <select class="form-control" id="question10">
+                      <option>1(Strongly Disagree)</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5(Strongly Agree)</option>>
+                    </select>
+              </div>
+              <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends Link</a></p>
+      </div>
+    </footer>
+
+  </div>
+  <script type="text/javascript">
+
+    // Capture the form inputs
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+
+  </script>
+
+</body>
+
+</html>
