@@ -56,111 +56,111 @@
               <div class="form-group">
                 <h3><strong>Question 1</strong></h3>
                 <label for="question1">Your mind is always buzzing with unexplored ideas and plans</label>
-                    <select class="form-control" id="question1">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question1">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 2</strong></h3>
                 <label for="question2">Generally speaking, you rely more on your experience than your imagination</label>
-                    <select class="form-control" id="question2">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question2">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 3</strong></h3>
                 <label for="question3">You would like to go to Comicon</label>
-                    <select class="form-control" id="question3">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question3">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 4</strong></h3>
                 <label for="question4">You think Star Wars is better than Star Trek</label>
-                    <select class="form-control" id="question4">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question4">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 5</strong></h3>
                 <label for="question5">You love Burritos</label>
-                    <select class="form-control" id="question5">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question5">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 6</strong></h3>
                 <label for="question6">You think football is life</label>
-                    <select class="form-control" id="question6">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question6">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 7</strong></h3>
                 <label for="question7">You love Burritos</label>
-                    <select class="form-control" id="question7">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question7">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <div class="form-group">
                 <h3><strong>Question 8</strong></h3>
                 <label for="question8">You are big fan of scary movies</label>
-                    <select class="form-control" id="question8">
-                      <option>1(Strongly Disagree)</option>
+                    <select class="chosen-select" id="question8">
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
-              <div class="form-group">
+              <div class="chosen-select">
                 <h3><strong>Question 9</strong></h3>
                 <label for="question9">Your idea of fun is going hiking</label>
                     <select class="form-control" id="question9">
-                      <option>1(Strongly Disagree)</option>
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
-              <div class="form-group">
+              <div class="chosen-select">
                 <h3><strong>Question 10</strong></h3>
                 <label for="question10">Adam Sandler is funny</label>
                     <select class="form-control" id="question10">
-                      <option>1(Strongly Disagree)</option>
+                      <option>1 (Strongly Disagree)</option>
                       <option>2</option>
                       <option>3</option>
                       <option>4</option>
-                      <option>5(Strongly Agree)</option>>
+                      <option>5 (Strongly Agree)</option>
                     </select>
               </div>
               <button type="submit" class="btn btn-primary submit">Submit</button>
@@ -183,6 +183,27 @@
     // Capture the form inputs
     $("#submit").on("click", function(event) {
       event.preventDefault();
+
+      console.log("why is this not working")
+      var newFriend = {
+        name: $("#full-name").val().trim(),
+        photo: $("#profile-photo").val().trim(),
+        score: [
+          $.("#question1").val(),
+          $.("#question2").val(),
+          $.("#question3").val(),
+          $.("#question4").val(),
+          $.("#question5").val(),
+          $.("#question6").val(),
+          $.("#question7").val(),
+          $.("#question8").val(),
+          $.("#question9").val(),
+          $.("#question10").val(),
+
+        ]
+      }
+
+      console.log(newFriend)
 
   </script>
 
