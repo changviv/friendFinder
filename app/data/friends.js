@@ -1,7 +1,7 @@
 var friendsArray = [
   {
     "name":"Vivien",
-    "photo":"https://pbs.twimg.com/media/DbE_vkWVQAADeaw.jpg",
+    "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNpshOr688hVf78MGWja8dwII6NpQjI_VMzU6dZF5WupZ-QV2oA",
     "scores":[5,1,4,4,5,1,2,5,4,1]
   },
   {
