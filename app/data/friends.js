@@ -6,13 +6,8 @@ var friendsArray = [
   },
   {
     "name":"Stewart",
-    "photo":"https://thumbs.mic.com/YjNmZjg5YjcwYSMvSnZrM0FUM010MGo1ejBPS1M0dFduQTUtVWpBPS8xNngyMjM6MTM0N3g4NTcvODAweDQ1MC9maWx0ZXJzOmZvcm1hdChqcGVnKTpxdWFsaXR5KDgwKS9odHRwczovL3MzLmFtYXpvbmF3cy5jb20vcG9saWN5bWljLWltYWdlcy9va2JoYXJ5eTVlMHQwenczZXNuNHd5MWdqdzgwcm1ob3lmZmlnaXluMHQxbmN3ZHJtYm9sZmRsempkNndoeWJiLmpwZw.jpg",
+    "photo":"http://4.bp.blogspot.com/-GW-5D6IPZFo/U8wQcUa8jTI/AAAAAAAADtI/-Wqtja9AovU/w1200-h630-p-k-no-nu/MadTV+Stuart.PNG",
     "scores":[5,1,4,3,4,4,5,1,3,2]
-  },
-  {
-    "name":"Kevin",
-    "photo":"https://akns-images.eonline.com/eol_images/Entire_Site/2015725/rs_300x300-150825112125-600-mccauley-culkin-home-alone-2-08255.jpg?fit=around|700:700&crop=700:700;center,top&output-quality=90",
-    "scores":[1,2,3,4,2,3,5,4,1,2]
   },
   {
     "name":"Ichigo",
